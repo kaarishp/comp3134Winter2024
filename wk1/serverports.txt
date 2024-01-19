@@ -1,4 +1,24 @@
 1. What is the definition of server port?
+
+A server port in cybersecurity is a numerical endpoint facilitating communication, enabling distinct processes or services to manage data traffic securely over a network.
+
 2. What is server port range?
+
+A server port range refers to a specified range of port numbers that can be used for communication between computers, allowing multiple services or processes on a server to operate within a designated and predefined set of port values.
+
 3. How many bits does number above represent?
+
+The number of bits required to represent a port range depends on the size of the range. If we consider a standard port range, such as 1 to 65535 (the maximum value for a 16-bit unsigned integer), it would require at least 16 bits to represent each individual port number in the range.
+
 4. State 10 common server ports? 
+
+HTTP (Hypertext Transfer Protocol): Port 80
+HTTPS (Hypertext Transfer Protocol Secure): Port 443
+FTP (File Transfer Protocol): Port 21
+SSH (Secure Shell): Port 22
+SMTP (Simple Mail Transfer Protocol): Port 25
+POP3 (Post Office Protocol version 3): Port 110
+IMAP (Internet Message Access Protocol): Port 143
+DNS (Domain Name System): Port 53
+Telnet: Port 23
+SNMP (Simple Network Management Protocol): Port 161
