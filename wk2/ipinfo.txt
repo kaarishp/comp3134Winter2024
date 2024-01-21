@@ -1,0 +1,65 @@
+1. queensu.ca
+
+130.15.1.0 is an IPv4 address owned by Queen's University and located in Kingston, Ontario, Canada
+
+Country	Canada   Canada
+State / Region	Ontario
+District / County	Frontenac County
+City	Kingston
+Zip / Postal code	K7L
+Weather station	CAXX6182 - Strathcona Park
+Coordinates	44.2286, -76.4927
+Timezone	America/Toronto (UTC-5)
+Local time	14:47:33
+
+2.  ontariotechu.ca
+
+COUNTRY: Canada 
+
+REGION: Ontario
+
+CITY: Oshawa
+
+ISP: Durham College of Applied Arts and Technology
+
+ORGANIZATION: Not available
+
+LATITUDE: 43.9319
+
+LONGITUDE: -78.9107
+
+3. uwaterloo.ca
+
+129.97.125.0 or wn-res-nat-129-97-125-0.dynamic.uwaterloo.ca is an IPv4 address owned by University of Waterloo and located in Waterloo, Ontario, Canada
+
+Country	Canada   Canada
+State / Region	Ontario
+City	Waterloo
+Weather station	CAXX0531 - Waterloo
+Coordinates	43.4668, -80.5164
+Timezone	America/Toronto (UTC-5)
+
+4. harvard.edu
+
+65.112.8.0 is an IPv4 address owned by Harvard University and located in Boston (Downtown), Massachusetts, United States
+
+Country	United States   United States
+State / Region	Massachusetts
+District / County	Suffolk
+City	Boston (Downtown)
+Zip / Postal code	02110
+Weather station	USMA0046 - Boston
+Coordinates	42.3545, -71.0542
+Timezone	America/New_York (UTC-5)
+
+5. jfn.ac.lk 
+
+103.77.64.0 is an IPv4 address owned by Lanka Education and Research Network and located in Peradeniya, Sri Lanka
+
+Country	Sri Lanka   Sri Lanka
+State / Region	Central
+District / County	Kandy District
+City	Peradeniya
+Zip / Postal code	20400
+Weather station	CEXX5775 - Peradeniya
+Coordinates	7.25494, 80.5974

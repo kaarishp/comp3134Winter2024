@@ -1,0 +1,19 @@
+PING georgebrown.ca (99.79.139.11): 56 data bytes
+64 bytes from 99.79.139.11: icmp_seq=0 ttl=47 time=40.946 ms
+64 bytes from 99.79.139.11: icmp_seq=1 ttl=47 time=40.696 ms
+64 bytes from 99.79.139.11: icmp_seq=2 ttl=47 time=33.228 ms
+64 bytes from 99.79.139.11: icmp_seq=3 ttl=47 time=37.906 ms
+64 bytes from 99.79.139.11: icmp_seq=4 ttl=47 time=31.882 ms
+64 bytes from 99.79.139.11: icmp_seq=5 ttl=47 time=34.561 ms
+64 bytes from 99.79.139.11: icmp_seq=6 ttl=47 time=36.046 ms
+64 bytes from 99.79.139.11: icmp_seq=7 ttl=47 time=40.022 ms
+64 bytes from 99.79.139.11: icmp_seq=8 ttl=47 time=90.894 ms
+64 bytes from 99.79.139.11: icmp_seq=9 ttl=47 time=28.939 ms
+64 bytes from 99.79.139.11: icmp_seq=10 ttl=47 time=40.980 ms
+64 bytes from 99.79.139.11: icmp_seq=11 ttl=47 time=39.323 ms
+64 bytes from 99.79.139.11: icmp_seq=12 ttl=47 time=29.514 ms
+64 bytes from 99.79.139.11: icmp_seq=13 ttl=47 time=39.580 ms
+^C
+--- georgebrown.ca ping statistics ---
+14 packets transmitted, 14 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 28.939/40.323/90.894/14.603 ms

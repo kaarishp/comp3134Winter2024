@@ -1,0 +1,19 @@
+PING 159.203.46.64 (159.203.46.64): 56 data bytes
+64 bytes from 159.203.46.64: icmp_seq=0 ttl=57 time=20.590 ms
+64 bytes from 159.203.46.64: icmp_seq=1 ttl=57 time=32.907 ms
+64 bytes from 159.203.46.64: icmp_seq=2 ttl=57 time=27.691 ms
+64 bytes from 159.203.46.64: icmp_seq=3 ttl=57 time=27.580 ms
+64 bytes from 159.203.46.64: icmp_seq=4 ttl=57 time=30.285 ms
+64 bytes from 159.203.46.64: icmp_seq=5 ttl=57 time=35.048 ms
+64 bytes from 159.203.46.64: icmp_seq=6 ttl=57 time=22.207 ms
+64 bytes from 159.203.46.64: icmp_seq=7 ttl=57 time=31.228 ms
+64 bytes from 159.203.46.64: icmp_seq=8 ttl=57 time=32.225 ms
+64 bytes from 159.203.46.64: icmp_seq=9 ttl=57 time=27.714 ms
+64 bytes from 159.203.46.64: icmp_seq=10 ttl=57 time=32.593 ms
+64 bytes from 159.203.46.64: icmp_seq=11 ttl=57 time=30.641 ms
+64 bytes from 159.203.46.64: icmp_seq=12 ttl=57 time=29.448 ms
+64 bytes from 159.203.46.64: icmp_seq=13 ttl=57 time=33.722 ms
+^C
+--- 159.203.46.64 ping statistics ---
+14 packets transmitted, 14 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 20.590/29.563/35.048/4.007 ms

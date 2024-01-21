@@ -1,0 +1,292 @@
+1. georgebrown.ca
+
+OrgID:          GBCAAT
+OrgName:        The George Brown College of Applied Arts and Technology
+CanAllocate:    
+Street:         P.O. Box 1015 
+Street:         Station B
+City:           Toronto
+State/Prov:     ON
+Country:        CA
+PostalCode:     M5T-2T9
+RegDate:        1993-11-30
+Updated:        2023-12-14
+OrgAbuseHandle: CHANW-ARIN
+OrgAbuseHandle: ADMIN6944-ARIN
+OrgAbuseHandle: CASIN3-ARIN
+OrgAbuseHandle: CHANW7-ARIN
+OrgAbuseHandle: CNO10-ARIN
+OrgAbuseHandle: ORGAN100-ARIN
+OrgAdminHandle: CHANW-ARIN
+OrgNOCHandle:   ADMIN6944-ARIN
+OrgRoutingHandle:   ORGAN100-ARIN
+OrgTechHandle:  ADMIN6944-ARIN
+OrgNOCHandle:   CHANW7-ARIN
+OrgTechHandle:  ORGAN100-ARIN
+OrgTechHandle:  CHANW7-ARIN
+OrgTechHandle:  CHANW-ARIN
+OrgNOCHandle:   CHANW-ARIN
+OrgRoutingHandle:   ADMIN6944-ARIN
+Source:         ARIN
+
+
+POCHandle:      CNO10-ARIN
+IsRole:         N
+LastName:       Nowak
+FirstName:      Carl
+Street:         160 Kendal Ave.
+City:           Toronto
+State/Prov:     ON
+Country:        CA
+PostalCode:     M5R-1M3
+RegDate:        2003-09-26
+Updated:        2023-04-20
+OfficePhone:    +1-416-415-5000
+Mailbox:        cnowak@georgebrown.ca
+Source:         ARIN
+
+
+POCHandle:      ORGAN100-ARIN
+IsRole:         N
+LastName:       Organisciak
+FirstName:      Sebastian
+Street:         P.O. Box 1015  Station  B
+City:           Toronto
+State/Prov:     ON
+Country:        CA
+PostalCode:     M5R 1M3
+RegDate:        2023-12-01
+Updated:        2023-12-01
+OfficePhone:    +1-416-415-5000
+Mailbox:        sebastian.organisciak@georgebrown.ca
+Source:         ARIN
+
+
+POCHandle:      CASIN3-ARIN
+IsRole:         N
+LastName:       Casino
+FirstName:      Michael 
+Street:         P.O. Box 1015  Station  B
+City:           Toronto
+State/Prov:     ON
+Country:        CA
+PostalCode:     M5R 1M3
+RegDate:        2023-12-01
+Updated:        2023-12-01
+OfficePhone:    +1-416-415-5000
+Mailbox:        michael.casino@georgebrown.ca
+Source:         ARIN
+
+
+POCHandle:      ADMIN6944-ARIN
+IsRole:         Y
+LastName:       admin
+FirstName:      
+Street:         P.O. Box 1015
+Street:         Station B 416-415-5000 Ext.4343
+Street:         Toronto, ON M5T 2T9
+Street:         Canada
+City:           Toronto
+State/Prov:     ON
+Country:        CA
+PostalCode:     M5R 1M3
+RegDate:        2018-12-10
+Updated:        2022-01-19
+OfficePhone:    +1-647-272-0534
+MobilePhone:    +1-647-272-0534
+Mailbox:        jefflimse@gmail.com
+Source:         ARIN
+
+2. utoronto.ca
+
+Registrant Contact Information:
+NameUniversity Toronto
+Organization
+Address4 Bancroft Avenue, Room 102
+CityToronto
+State / ProvinceON
+Postal CodeM5S1C1
+CountryCA
+Phone+1.4169780470
+Email
+
+Administrative Contact Information:
+NameUniversity Toronto
+Organization
+Address4 Bancroft Avenue, Room 102
+CityToronto
+State / ProvinceON
+Postal CodeM5S1C1
+CountryCA
+Phone+1.4169780470
+Email
+
+Technical Contact Information:
+NameUniversity Toronto
+Organization
+Address4 Bancroft Avenue, Room 102
+CityToronto
+State / ProvinceON
+Postal CodeM5S1C1
+CountryCA
+Phone+1.4169780470
+Email
+
+Billing Contact Information:
+NameUniversity Toronto
+Organization
+Address4 Bancroft Avenue, Room 102
+CityToronto
+State / ProvinceON
+Postal CodeM5S1C1
+CountryCA
+Phone+1.4169780470
+Email
+
+3. mcmaster.ca
+
+Registrant Contact Information:
+NameMcMaster University
+Organization
+AddressMcMaster University, 1280 Main Street West
+CityHamilton
+State / ProvinceON
+Postal CodeL8S4M1
+CountryCA
+Phone+1.9055259140
+Fax+1.9055220511
+Email
+
+Administrative Contact Information:
+NameMcMaster University
+Organization
+AddressMcMaster University, 1280 Main Street West
+CityHamilton
+State / ProvinceON
+Postal CodeL8S4M1
+CountryCA
+Phone+1.9055259140
+Fax+1.9055220511
+Email
+
+Technical Contact Information:
+NameMcMaster University
+Organization
+AddressMcMaster University, 1280 Main Street West
+CityHamilton
+State / ProvinceON
+Postal CodeL8S4M1
+CountryCA
+Phone+1.9055259140
+Fax+1.9055220511
+Email
+
+Billing Contact Information:
+NameMcMaster University
+Organization
+AddressMcMaster University, 1280 Main Street West
+CityHamilton
+State / ProvinceON
+Postal CodeL8S4M1
+CountryCA
+Phone+1.9055259140
+Fax+1.9055220511
+Email
+
+4. yorku.ca
+
+Registrant Contact Information:
+NameYork University
+Organization
+Address4700 Keele Street
+CityToronto
+State / ProvinceON
+Postal CodeM3J1P3
+CountryCA
+Phone+1.4167365257
+Fax+1.4167365701
+Email
+
+Administrative Contact Information:
+NameYork University
+Organization
+Address4700 Keele Street
+CityToronto
+State / ProvinceON
+Postal CodeM3J1P3
+CountryCA
+Phone+1.4167365257
+Fax+1.4167365701
+Email
+
+Technical Contact Information:
+NameYork University
+Organization
+Address4700 Keele Street
+CityToronto
+State / ProvinceON
+Postal CodeM3J1P3
+CountryCA
+Phone+1.4167365257
+Fax+1.4167365701
+Email
+
+Billing Contact Information:
+NameYork University
+Organization
+Address4700 Keele Street
+CityToronto
+State / ProvinceON
+Postal CodeM3J1P3
+CountryCA
+Phone+1.4167365257
+Fax+1.4167365701
+Email
+
+5. senecapolytechnic.ca
+
+Registrant Contact Information:
+NameSeneca College of Applied Arts & Technology (Ontario)
+Organization
+Address1750 Finch Ave. East
+CityToronto
+State / ProvinceON
+Postal CodeM2J2X5
+CountryCA
+Phone+1.4164915050
+Email
+
+Administrative Contact Information:
+NameSeneca College of Applied Arts & Technology (Ontario)
+Organization
+Address1750 Finch Ave. East
+CityToronto
+State / ProvinceON
+Postal CodeM2J2X5
+CountryCA
+Phone+1.4164915050
+Email
+
+Technical Contact Information:
+NameSeneca College of Applied Arts & Technology (Ontario)
+Organization
+Address1750 Finch Ave. East
+CityToronto
+State / ProvinceON
+Postal CodeM2J2X5
+CountryCA
+Phone+1.4164915050
+Email
+
+Billing Contact Information:
+NameSeneca College of Applied Arts & Technology (Ontario)
+Organization
+Address1750 Finch Ave. East
+CityToronto
+State / ProvinceON
+Postal CodeM2J2X5
+CountryCA
+Phone+1.4164915050
+Email
+
+Information Updated: 2024-01-21 19:44:18
