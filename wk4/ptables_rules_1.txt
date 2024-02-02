@@ -1,0 +1,27 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# man iptables
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get update
+Hit:1 http://mirrors.digitalocean.com/ubuntu mantic InRelease
+Hit:2 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease  
+Get:3 http://mirrors.digitalocean.com/ubuntu mantic-updates InRelease [109 kB] 
+Hit:4 http://mirrors.digitalocean.com/ubuntu mantic-backports InRelease
+Hit:5 http://security.ubuntu.com/ubuntu mantic-security InRelease
+Get:6 http://mirrors.digitalocean.com/ubuntu mantic-updates/main amd64 Packages [274 kB]
+Get:7 http://mirrors.digitalocean.com/ubuntu mantic-updates/universe amd64 Packages [280 kB]
+Fetched 662 kB in 7s (96.6 kB/s)                        
+Reading package lists... Done
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get install iptables
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+iptables is already the newest version (1.8.9-2ubuntu2).
+iptables set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 40 not upgraded.
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# iptables -L -v
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
