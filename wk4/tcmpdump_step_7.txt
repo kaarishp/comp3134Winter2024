@@ -1,0 +1,15 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+19:18:26.080539 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841: Flags [P.], seq 261370475:261370519, ack 472347247, win 501, options [nop,nop,TS val 1730162405 ecr 407548542], length 44
+19:18:26.080606 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841: Flags [P.], seq 44:96, ack 1, win 501, options [nop,nop,TS val 1730162405 ecr 407548542], length 52
+19:18:26.080710 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841: Flags [P.], seq 96:232, ack 1, win 501, options [nop,nop,TS val 1730162405 ecr 407548542], length 136
+19:18:26.080866 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841: Flags [P.], seq 232:268, ack 1, win 501, options [nop,nop,TS val 1730162405 ecr 407548542], length 36
+19:18:26.088952 IP cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 268, win 6998, options [nop,nop,TS val 407548573 ecr 1730162405], length 0
+19:18:28.073839 IP ec2-13-245-182-234.af-south-1.compute.amazonaws.com > ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 31, seq 12106, length 16
+19:18:28.073930 IP ubuntu-s-1vcpu-1gb-tor1-01 > ec2-13-245-182-234.af-south-1.compute.amazonaws.com: ICMP echo reply, id 31, seq 12106, length 16
+19:18:28.208870 IP ec2-13-245-9-41.af-south-1.compute.amazonaws.com > ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 31, seq 12106, length 16
+19:18:28.208939 IP ubuntu-s-1vcpu-1gb-tor1-01 > ec2-13-245-9-41.af-south-1.compute.amazonaws.com: ICMP echo reply, id 31, seq 12106, length 16
+19:18:28.311301 IP ec2-13-244-137-51.af-south-1.compute.amazonaws.com > ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 31, seq 12106, length 16
+19:18:28.311389 IP ubuntu-s-1vcpu-1gb-tor1-01 > ec2-13-244-137-51.af-south-1.compute.amazonaws.com: ICMP echo reply, id 31, seq 12106, length 16
+19:18:32.814109 IP 45-14-226-132.hosted-by.phanes.cloud.40081 > ubuntu-s-1vcpu-1gb-tor1-01.13000: Flags [S], seq 939149743, win 1025, options [mss 1460], length 0
+19:18:33.523908 IP 80.66.83.68.61000 > ubuntu-s-1vcpu-1gb-tor1-01.16676: Flags [S], seq 41046421, win 1024, length 0

@@ -1,0 +1,65 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+19:17:08.190440 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841: Flags [P.], seq 257628195:257628303, ack 472343827, win 501, options [nop,nop,TS val 1730084514 ecr 407470659], length 108
+	0x0000:  fe00 0000 0101 0e02 0458 7948 0800 4510  .........XyH..E.
+	0x0010:  00a0 344b 4000 4006 39f9 9fcb 2e40 63eb  ..4K@.@.9....@c.
+	0x0020:  9a0d 0016 f579 0f5b 1823 1c27 6513 8018  .....y.[.#.'e...
+	0x0030:  01f5 cc96 0000 0101 080a 671e fea2 1849  ..........g....I
+	0x0040:  8243 a55d 3cf4 9154 5867 7887 02c7 d56b  .C.]<..TXgx....k
+	0x0050:  8e69 2d7b 5bb6 75bc 1c31 f68b 55f1 cb54  .i-{[.u..1..U..T
+	0x0060:  b68b 21dd 620c bb46 6f02 3e9d 7d6e 89e0  ..!.b..Fo.>.}n..
+	0x0070:  7009 91b9 86c1 a809 b6b8 293e 814c 8910  p.........)>.L..
+	0x0080:  e654 bf92 b843 924f 7055 11b5 5a70 1ebb  .T...C.OpU..Zp..
+	0x0090:  98ac f67e 19be c5cc d5a9 3ddc 81ef df6c  ...~......=....l
+	0x00a0:  2f65 4914 c2d0 079e 09b4 eb57 99ee       /eI........W..
+19:17:08.190550 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841: Flags [P.], seq 108:264, ack 1, win 501, options [nop,nop,TS val 1730084515 ecr 407470659], length 156
+	0x0000:  fe00 0000 0101 0e02 0458 7948 0800 4510  .........XyH..E.
+	0x0010:  00d0 344c 4000 4006 39c8 9fcb 2e40 63eb  ..4L@.@.9....@c.
+	0x0020:  9a0d 0016 f579 0f5b 188f 1c27 6513 8018  .....y.[...'e...
+	0x0030:  01f5 ccc6 0000 0101 080a 671e fea3 1849  ..........g....I
+	0x0040:  8243 78b1 70e6 9eb5 d693 034e 6c72 13bd  .Cx.p......Nlr..
+	0x0050:  386e 37f9 174f 08f0 78a6 baa2 d13f 098b  8n7..O..x....?..
+	0x0060:  15b1 47f7 6979 1fa8 7030 a2f4 a1e9 a0f2  ..G.iy..p0......
+	0x0070:  ec95 d410 d2df 72ab 4d9d 9f91 2fb4 a98f  ......r.M.../...
+	0x0080:  efae 0d31 4ea7 5e3b 7db8 988d af3f e586  ...1N.^;}....?..
+	0x0090:  fba8 3b36 c471 b6d9 0af5 1857 20ad cf12  ..;6.q.....W....
+	0x00a0:  2a5b f3ea 23bc 8e0e 7635 14eb 3433 8d52  *[..#...v5..43.R
+	0x00b0:  a225 a200 19ba 43dd c3b7 da6a 987b 7bd3  .%....C....j.{{.
+	0x00c0:  ab47 e10d ace9 bd6f 2087 6eb6 594e fae8  .G.....o..n.YN..
+	0x00d0:  1f9f 5be0 a732 86e7 a92f c262 0953       ..[..2.../.b.S
+19:17:08.190613 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841: Flags [P.], seq 264:332, ack 1, win 501, options [nop,nop,TS val 1730084515 ecr 407470659], length 68
+	0x0000:  fe00 0000 0101 0e02 0458 7948 0800 4510  .........XyH..E.
+	0x0010:  0078 344d 4000 4006 3a1f 9fcb 2e40 63eb  .x4M@.@.:....@c.
+	0x0020:  9a0d 0016 f579 0f5b 192b 1c27 6513 8018  .....y.[.+.'e...
+	0x0030:  01f5 cc6e 0000 0101 080a 671e fea3 1849  ...n......g....I
+	0x0040:  8243 ee4c 1abe fbbc 912e 3531 8f26 abf0  .C.L......51.&..
+	0x0050:  1984 276c 1cb5 0d19 07c4 3342 d295 4af1  ..'l......3B..J.
+	0x0060:  35da a9fb 5c7a ad03 695f 2abd af4a c573  5...\z..i_*..J.s
+	0x0070:  7ff3 561e c0b2 e882 7870 de88 b05e 8cc3  ..V.....xp...^..
+	0x0080:  e06d e0fc 2c74                           .m..,t
+19:17:08.190724 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841: Flags [P.], seq 332:368, ack 1, win 501, options [nop,nop,TS val 1730084515 ecr 407470659], length 36
+	0x0000:  fe00 0000 0101 0e02 0458 7948 0800 4510  .........XyH..E.
+	0x0010:  0058 344e 4000 4006 3a3e 9fcb 2e40 63eb  .X4N@.@.:>...@c.
+	0x0020:  9a0d 0016 f579 0f5b 196f 1c27 6513 8018  .....y.[.o.'e...
+	0x0030:  01f5 cc4e 0000 0101 080a 671e fea3 1849  ...N......g....I
+	0x0040:  8243 7964 3e70 446a b589 c729 678c 31c8  .Cyd>pDj...)g.1.
+	0x0050:  36e1 5504 b646 e7a1 c974 1e2f 52aa 8e34  6.U..F...t./R..4
+	0x0060:  fefb 0c88 2991                           ....).
+19:17:08.203782 IP cpe00fc8d403183-cm00fc8d403180.cpe.net.cable.rogers.com.62841 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 2042, options [nop,nop,TS val 407470683 ecr 1730084515], length 0
+	0x0000:  0e02 0458 7948 fe00 0000 0101 0800 4500  ...XyH........E.
+	0x0010:  0034 0000 4000 3906 75c0 63eb 9a0d 9fcb  .4..@.9.u.c.....
+	0x0020:  2e40 f579 0016 1c27 6513 0f5b 1993 8010  .@.y...'e..[....
+	0x0030:  07fa 02a0 0000 0101 080a 1849 825b 671e  ...........I.[g.
+	0x0040:  fea3                                     ..
+19:17:08.292646 IP ubuntu-s-1vcpu-1gb-tor1-01.58374 > 67.207.67.3.domain: 49700+ [1au] PTR? 13.154.235.99.in-addr.arpa. (55)
+	0x0000:  fe00 0000 0101 0e02 0458 7948 0800 4500  .........XyH..E.
+	0x0010:  0053 d9af 0000 4011 4c0d 9fcb 2e40 43cf  .S....@.L....@C.
+	0x0020:  4303 e406 0035 003f 552e c224 0100 0001  C....5.?U..$....
+	0x0030:  0000 0000 0001 0231 3303 3135 3403 3233  .......13.154.23
+	0x0040:  3502 3939 0769 6e2d 6164 6472 0461 7270  5.99.in-addr.arp
+	0x0050:  6100 000c 0001 0000 2905 c000 0000 0000  a.......).......
+	0x0060:  00                                       .
+376 packets captured
+1410 packets received by filter
+373 packets dropped by kernel
