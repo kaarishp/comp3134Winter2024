@@ -1,0 +1,1 @@
+Using csfr_form.php with a CSRF token allows successful authentication only when the session and POST tokens match, effectively mitigating CSRF risks. Conversely, attempts to authenticate using csfr.html fail without CSRF token protection, underscoring the critical need for CSRF tokens in forms to prevent attacks.

