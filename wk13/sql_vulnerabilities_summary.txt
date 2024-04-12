@@ -1,0 +1,5 @@
+1. Input "Ben": No results are returned as expected because the input directly interacts with the database query and Ben is marked inactive. This demonstrates proper function despite the lack of input sanitization.
+
+2. Input "Ben'--": This SQL injection attempt, using a string termination and comment syntax, could disrupt the query's structure, potentially leading to an SQL error or no visible output, depending on error handling. It illustrates how unsanitized inputs can exploit query vulnerabilities.
+
+3. Input "Ben' or 1=1": This classic SQL injection overrides query logic, making the condition universally true and potentially returning all users in the database, thus bypassing filters like active status. This highlights a significant security flaw when user input isn't properly sanitized.
