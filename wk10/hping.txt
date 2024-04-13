@@ -1,0 +1,3 @@
+hping3 --flood --rand-source -p "source ip" "ip"
+hping3 --udp -a SPOOFED_IP -p "source ip" "ip"
+hping3 --icmp --data SIZE --interval uTIME "ip"

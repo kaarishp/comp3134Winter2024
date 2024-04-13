@@ -1,0 +1,20 @@
+What you see on the browser (the issue):
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => .git
+    [3] => README.md
+    [4] => wk1
+    [5] => wk10
+    [6] => wk12
+    [7] => wk13
+    [8] => wk2
+    [9] => wk4
+    [10] => wk5
+    [11] => wk9
+)
+
+
+What sensitive information is given by this page:
+The listing might include configuration files, source code, or other files that should not be publicly accessible. This exposure can provide attackers with information about server structure, third-party software being used, or configuration settings that might be exploited further.

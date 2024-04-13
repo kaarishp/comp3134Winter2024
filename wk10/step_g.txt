@@ -1,0 +1,1 @@
+To mitigate the problem of visible comments in the HTML source code, which could potentially expose sensitive information, all comments have been converted to PHP comments. PHP comments are processed on the server and do not appear in the HTML output delivered to the browser, thereby enhancing the privacy and security of the code.

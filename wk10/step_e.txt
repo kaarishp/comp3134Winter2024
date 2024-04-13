@@ -1,0 +1,5 @@
+1. Path Limitation: Implemented basename() to ensure only the directory name without path traversal is obtained from the query parameter. This prevents users from navigating outside the intended directory structure.
+
+2. Existence Check: Added checks using file_exists() and is_dir() to ensure the directory actually exists and is not a file. This avoids errors and unauthorized access to non-directory paths.
+
+3. Security Enforcement: Ensured the full path is within the specified base directory using realpath() and a substring check. This confines user access to a predefined safe area of the server filesystem.

@@ -1,0 +1,8 @@
+What you see on the browser (the issue)
+
+Warning:  scandir(hello): Failed to open directory: No such file or directory in /Users/king/Desktop/COMP3134/wk10/directory_traversal_part1.php on line 7
+Warning:  scandir(): (errno 2): No such file or directory in /Users/king/Desktop/COMP3134/wk10/directory_traversal_part1.php on line 7
+
+What sensitive information is given by this page:
+
+The error messages inadvertently disclose the full path to the script and the username, providing attackers with detailed server directory structure and user information, which could be exploited for further attacks.

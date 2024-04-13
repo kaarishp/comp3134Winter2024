@@ -1,0 +1,12 @@
+What you see on the browser (the issue):
+Array 
+(
+[0] → .
+[1] →> ..
+[2] = localized
+[3] = Shared
+[4] →> king
+)
+
+What sensitive information is given by this page:
+The output from the directory traversal exposes the names of potentially sensitive directories such as "localized," "Shared," and "king," which could provide attackers with useful information about the server's file system structure and potentially accessible data.
