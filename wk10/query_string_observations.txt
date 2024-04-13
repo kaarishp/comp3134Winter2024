@@ -1,0 +1,17 @@
+Query String Observations
+
+1. Valid English Word Submission:
+   - Input: 'apple'
+   - Observation: The word 'apple' appears in the query string of the URL. The page processes the input correctly and displays relevant information. No errors are observed, indicating proper handling of standard input.
+
+2. Invalid English Word in URL:
+   - Direct URL Input: '/browse/orangutang'
+   - Observation: The application responds to the non-existent word with a 'Not Found' or 'No Results' message, demonstrating how it handles unexpected direct URL inputs.
+
+3. XSS Attack via Form:
+   - Input: '<script>alert('hello')</script>'
+   - Observation: The application should sanitize the input, preventing the JavaScript from executing. If no alert is shown, it suggests adequate protection against XSS.
+
+4. XSS Attack via URL:
+   - Direct URL Input: '?term=<script>alert('hello')</script>'
+   - Observation: The critical test for URL parameter sanitation. If the script executes (showing an alert), the application is vulnerable to XSS. Properly encoded or stripped script tags indicate good security practices.

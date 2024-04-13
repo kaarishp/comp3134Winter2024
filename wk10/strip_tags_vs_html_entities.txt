@@ -1,0 +1,7 @@
+1. strip_tags():
+   - The strip_tags() function in PHP removes HTML and PHP tags from a string. This prevents tags from affecting the HTML structure of the page, which can mitigate XSS attacks by stripping out script tags or any other tags that could be maliciously injected.
+   - However, strip_tags() does not encode characters that can still be harmful if JavaScript is executed via attributes or other contexts (e.g., onmouseover events).
+
+2. htmlspecialchars():
+   - The htmlspecialchars() function converts special characters to their HTML entities. For example, '<' becomes '&lt;' and '>' becomes '&gt;'. This means the input will still be visible but displayed as harmless text, not HTML.
+   - This method is useful for preventing XSS attacks where the user input might include HTML or JavaScript code that should not be rendered as such by the browser. It ensures that input is safely displayed to users without interfering with the page's HTML structure.
